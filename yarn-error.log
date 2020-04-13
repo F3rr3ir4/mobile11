@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\Microchip\xc8\v2.05\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Yarn\bin\;C:\xampp\php;C:\composer;C:\Program Files\nodejs\;C:\Android\Sdk\platform-tools;C:\Android\Sdk\tools;C:\Users\Ferreira\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Ferreira\AppData\Local\Programs\Python\Python38-32\;C:\Users\Ferreira\Anaconda3;C:\Users\Ferreira\Anaconda3\Library\mingw-w64\bin;C:\Users\Ferreira\Anaconda3\Library\usr\bin;C:\Users\Ferreira\Anaconda3\Library\bin;C:\Users\Ferreira\Anaconda3\Scripts;C:\Users\Ferreira\AppData\Local\Microsoft\WindowsApps;C:\Users\Ferreira\AppData\Local\GitHubDesktop\bin;C:\Users\Ferreira\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ferreira\AppData\Local\Yarn\bin;C:\Users\Ferreira\AppData\Roaming\Composer\vendor\bin;C:\Users\Ferreira\.dotnet\tools;C:\Users\Ferreira\AppData\Roaming\npm;C:\Android\Sdk\tools;C:\Android\Sdk\platform-tools;
+
+Yarn version: 
+  1.19.2
+
+Node version: 
+  13.7.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz: unexpected end of file
+      at Zlib.zlibOnError [as onerror] (zlib.js:180:17)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~37.0.3",
+      "react": "~16.9.0",
+      "react-dom": "~16.9.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+      "react-native-web": "~0.11.7"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "~8.1.0",
+      "@babel/core": "^7.8.6"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
